@@ -2331,7 +2331,8 @@ textarea.form-input
 .pagination .page-item a:hover,
 .pagination .page-item a:focus
 {
-    background: #99ffe6;
+    color: #fff;
+    background: #0c9;
 }
 .pagination .page-item.active a
 {
