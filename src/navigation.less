@@ -51,15 +51,15 @@
 
       &:hover,
       &:focus {
-        border-bottom-color: @core-color;
-        color: @core-link-color;
+        border-bottom-color: darken(@core-color, 10%);
+        color: darken(@core-link-color, 10%);
       }
     }
 
     &.active {
       a {
-        border-bottom-color: darken(@core-color, 10%);
-        color: darken(@core-link-color, 10%);
+        border-bottom-color: @core-color;
+        color: @core-link-color;
       }
     }
   }

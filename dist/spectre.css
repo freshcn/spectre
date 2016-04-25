@@ -2285,13 +2285,13 @@ textarea.form-input
 .tab .tab-item a:hover,
 .tab .tab-item a:focus
 {
-    color: #0c9;
-    border-bottom-color: #0c9;
+    color: #009973;
+    border-bottom-color: #009973;
 }
 .tab .tab-item.active a
 {
-    color: #009973;
-    border-bottom-color: #009973;
+    color: #0c9;
+    border-bottom-color: #0c9;
 }
 .tab.tab-block .tab-item
 {
