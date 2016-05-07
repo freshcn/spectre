@@ -440,12 +440,12 @@ a
 {
     text-decoration: underline;
 
-    color: #67d678;
+    color: #42be51;
 }
 a:hover,
 a:focus
 {
-    color: #53d166;
+    color: #3bac49;
 }
 [disabled],
 .disabled
@@ -586,7 +586,7 @@ pre
     margin-bottom: 1em;
     padding: 1.5rem;
 
-    border-left: .2rem solid #67d678;
+    border-left: .2rem solid #42be51;
     background: #f9f9f9;
 }
 code
@@ -1081,8 +1081,8 @@ pre code
     white-space: nowrap;
     text-decoration: none;
 
-    color: #67d678;
-    border: .1rem solid #67d678;
+    color: #42be51;
+    border: .1rem solid #42be51;
     border-radius: .3rem;
     outline: 0;
     background: transparent;
@@ -1093,35 +1093,35 @@ pre code
 .btn:focus
 {
     color: #fff;
-    border-color: #53d166;
-    background: #67d678;
+    border-color: #3bac49;
+    background: #42be51;
 }
 .btn:active,
 .btn.active
 {
     color: #fff;
-    border-color: #3fcb54;
-    background: #53d166;
+    border-color: #349941;
+    background: #3bac49;
 }
 .btn.btn-primary
 {
     color: #fff;
-    border-color: #53d166;
-    background: #67d678;
+    border-color: #3bac49;
+    background: #42be51;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus
 {
     color: #fff;
-    border-color: #3fcb54;
-    background: #53d166;
+    border-color: #349941;
+    background: #3bac49;
 }
 .btn.btn-primary:active,
 .btn.btn-primary.active
 {
     color: #fff;
-    border-color: #33bd48;
-    background: #3fcb54;
+    border-color: #2e8639;
+    background: #349941;
 }
 .btn.btn-primary.loading::after
 {
@@ -1131,19 +1131,19 @@ pre code
 }
 .btn.btn-link
 {
-    color: #67d678;
+    color: #42be51;
     border-color: transparent;
     background: transparent;
 }
 .btn.btn-link:hover,
 .btn.btn-link:focus
 {
-    color: #53d166;
+    color: #3bac49;
 }
 .btn.btn-link:active,
 .btn.btn-link.active
 {
-    color: #289539;
+    color: #216028;
 }
 .btn.btn-sm
 {
@@ -1294,7 +1294,7 @@ pre code
 }
 .form-input:focus
 {
-    border-color: #67d678;
+    border-color: #42be51;
 }
 .form-input[disabled]
 {
@@ -1334,7 +1334,7 @@ textarea.form-input
 .has-success .form-input,
 .form-input.is-success
 {
-    border-color: #67d678;
+    border-color: #42be51;
 }
 .has-danger .form-input,
 .form-input.is-danger
@@ -1371,7 +1371,7 @@ textarea.form-input
 }
 .form-select:focus
 {
-    border-color: #67d678;
+    border-color: #42be51;
 }
 .form-select::-ms-expand
 {
@@ -1434,8 +1434,8 @@ textarea.form-input
 .form-checkbox input:checked + .form-icon,
 .form-radio input:checked + .form-icon
 {
-    border-color: #67d678;
-    background: #67d678;
+    border-color: #42be51;
+    background: #42be51;
 }
 .form-checkbox .form-icon
 {
@@ -1532,8 +1532,8 @@ textarea.form-input
 }
 .form-switch input:checked + .form-icon
 {
-    border-color: #67d678;
-    background: #67d678;
+    border-color: #42be51;
+    background: #42be51;
 }
 .form-switch input:checked + .form-icon::after
 {
@@ -1790,7 +1790,7 @@ textarea.form-input
 .form-autocomplete .form-autocomplete-list .chip:hover,
 .form-autocomplete .form-autocomplete-list .chip.selected
 {
-    background: #fff;
+    background: #daf2dd;
 }
 .badge
 {
@@ -1816,7 +1816,7 @@ textarea.form-input
     color: #fff;
     border: .1rem solid #fff;
     border-radius: 1rem;
-    background: #67d678;
+    background: #42be51;
 }
 .card
 {
@@ -1935,14 +1935,14 @@ textarea.form-input
 .chip .chip-action .btn:hover,
 .chip .chip-action .btn:focus
 {
-    color: #67d678;
+    color: #42be51;
     border-color: transparent;
     background: transparent;
 }
 .chip .chip-action .btn:active,
 .chip .chip-action .btn.active
 {
-    color: #53d166;
+    color: #3bac49;
     border-color: transparent;
     background: transparent;
 }
@@ -1963,7 +1963,7 @@ textarea.form-input
 
     color: #666;
     border-radius: .3rem;
-    background: #fff;
+    background: #daf2dd;
 
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1972,22 +1972,22 @@ textarea.form-input
 .chip-sm:hover,
 .chip-sm:focus
 {
-    background: #fff;
+    background: #d2f0d6;
 }
 .chip-sm .btn::before,
 .chip-sm .btn::after
 {
-    background: #3fcb54;
+    background: #349941;
 }
 .chip-sm.selected
 {
     color: #fff;
-    background: #67d678;
+    background: #42be51;
 }
 .chip-sm.selected .btn::before,
 .chip-sm.selected .btn::after
 {
-    background: #fff;
+    background: #daf2dd;
 }
 .chip-sm .chip-name
 {
@@ -2023,8 +2023,8 @@ textarea.form-input
 .label.label-primary
 {
     color: #fff;
-    border-color: #5fd471;
-    background: #67d678;
+    border-color: #3fb74d;
+    background: #42be51;
 }
 .menu
 {
@@ -2074,13 +2074,13 @@ textarea.form-input
 .menu .menu-item a:hover,
 .menu .menu-item a:focus
 {
-    color: #67d678;
+    color: #42be51;
 }
 .menu .menu-item a:active,
 .menu .menu-item a.active
 {
-    color: #53d166;
-    background: #fff;
+    color: #3bac49;
+    background: #daf2dd;
 }
 .menu .menu-header
 {
@@ -2286,13 +2286,13 @@ textarea.form-input
 .tab .tab-item a:hover,
 .tab .tab-item a:focus
 {
-    color: #3fcb54;
-    border-bottom-color: #3fcb54;
+    color: #349941;
+    border-bottom-color: #349941;
 }
 .tab .tab-item.active a
 {
-    color: #67d678;
-    border-bottom-color: #67d678;
+    color: #42be51;
+    border-bottom-color: #42be51;
 }
 .tab.tab-block .tab-item
 {
@@ -2333,12 +2333,12 @@ textarea.form-input
 .pagination .page-item a:focus
 {
     color: #fff;
-    background: #67d678;
+    background: #42be51;
 }
 .pagination .page-item.active a
 {
     color: #fff;
-    background: #67d678;
+    background: #42be51;
 }
 .toast
 {
@@ -2355,14 +2355,14 @@ textarea.form-input
 .toast.toast-primary
 {
     color: #fff;
-    border-color: #5fd471;
-    background: #67d678;
+    border-color: #3fb74d;
+    background: #42be51;
 }
 .toast.toast-success
 {
     color: #fff;
-    border-color: #5fd471;
-    background: #67d678;
+    border-color: #3fb74d;
+    background: #42be51;
 }
 .toast.toast-danger
 {
@@ -2725,7 +2725,7 @@ textarea.form-input
     -webkit-animation: loading 500ms infinite linear;
             animation: loading 500ms infinite linear;
 
-    border: .2rem solid #67d678;
+    border: .2rem solid #42be51;
     border-top-color: transparent;
     border-right-color: transparent;
     border-radius: .8rem;
