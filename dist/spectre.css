@@ -2288,6 +2288,7 @@ textarea.form-input
 {
     color: #349941;
     border-bottom-color: #349941;
+    background-color: #fff;
 }
 .tab .tab-item.active a
 {
