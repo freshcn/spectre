@@ -2330,8 +2330,7 @@ textarea.form-input
 
     border-radius: .3rem;
 }
-.pagination .page-item a:hover,
-.pagination .page-item a:focus
+.pagination .page-item a:hover
 {
     color: #fff;
     background: #42be51;
