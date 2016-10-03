@@ -387,12 +387,12 @@ body {
   overflow-x: hidden;
 }
 a {
-  color: #5764c6;
+  color: #42be51;
   text-decoration: underline;
 }
 a:hover,
 a:focus {
-  color: #4452c0;
+  color: #3bac49;
 }
 [disabled],
 .disabled {
@@ -585,7 +585,7 @@ pre code {
   background: #fff;
   border: .1rem solid #42be51;
   border-radius: .3rem;
-  color: #5764c6;
+  color: #42be51;
   cursor: pointer;
   display: inline-block;
   font-size: 1.4rem;
@@ -643,15 +643,15 @@ pre code {
 .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: #5764c6;
+  color: #42be51;
 }
 .btn.btn-link:hover,
 .btn.btn-link:focus {
-  color: #4452c0;
+  color: #3bac49;
 }
 .btn.btn-link:active,
 .btn.btn-link.active {
-  color: #283176;
+  color: #216028;
 }
 .btn.btn-sm {
   border-radius: .2rem;
@@ -1744,12 +1744,12 @@ textarea.form-input {
 }
 .menu .menu-item a:hover,
 .menu .menu-item a:focus {
-  color: #5764c6;
+  color: #42be51;
 }
 .menu .menu-item a:active,
 .menu .menu-item a.active {
   background: #daf2dd;
-  color: #4452c0;
+  color: #3bac49;
 }
 .menu .menu-header {
   color: #ccc;
@@ -1899,11 +1899,11 @@ textarea.form-input {
 .tab .tab-item a:hover,
 .tab .tab-item a:focus {
   border-bottom-color: #42be51;
-  color: #5764c6;
+  color: #42be51;
 }
 .tab .tab-item.active a {
   border-bottom-color: #349941;
-  color: #3b49af;
+  color: #349941;
 }
 .tab.tab-block .tab-item {
   -webkit-flex: 1 0 auto;
