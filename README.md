@@ -5,8 +5,7 @@ Spectre.css is a lightweight, responsive and modern CSS framework for faster and
 - flexbox, responsive and mobile-friendly layout
 - carefully designed elements
 - built in useful components and utilities
-- patterns and html templates (soon)
-- email templates (soon)
+- responsive email templates (soon)
 
 Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with LESS compiler.
 
@@ -18,9 +17,9 @@ There are 3 ways to get started with Spectre CSS framework in your projects. You
 ##### Install manually
 Download the compiled and minified [Spectre CSS file](https://github.com/picturepan2/spectre/tree/master/dist).
 ##### Install with NPM
-`$ npm install spectre.css --save`
+`$ npm install spectre.css`
 ##### Install with Bower
-`$ bower install spectre.css --save`
+`$ bower install spectre.css`
 
 And include it in your website or Web app &lt;head&gt; part.
 
@@ -28,18 +27,22 @@ And include it in your website or Web app &lt;head&gt; part.
 
 ### Compiling custom version
 
-You can compiling your custom version of Spectre.css. Read [the documentation](http://picturepan2.github.io/spectre/#compiling).
+You can compile your custom version of Spectre.css. Read [the documentation](http://picturepan2.github.io/spectre/#compiling).
 
 ### Documentation and demos
 
 #### Elements
 
 - [typography](http://picturepan2.github.io/spectre/#typography) - headings, paragraphs, blockquote, lists and code elements, optimized for asian fonts
-- [layout](http://picturepan2.github.io/spectre/#layout) - flexbox based responsive layout system
 - [tables](http://picturepan2.github.io/spectre/#tables) - organize and display data
 - [buttons](http://picturepan2.github.io/spectre/#buttons) - button styles in different types and sizes, and even button groups
 - [forms](http://picturepan2.github.io/spectre/#forms) - input, radio, checkbox, switch and other form elements
 - [media](http://picturepan2.github.io/spectre/#media) - responsive image and video class
+
+#### Layout
+- [flexbox-grid](http://picturepan2.github.io/spectre/#grid) - flexbox based responsive grid system
+- [responsive](http://picturepan2.github.io/spectre/#responsive) - responsive grid and utilities
+- [empty states](http://picturepan2.github.io/spectre/#empty) - empty states/blank slates for first time use, empty data and error screens
 
 #### Components
 
@@ -59,8 +62,12 @@ You can compiling your custom version of Spectre.css. Read [the documentation](h
 
 - [utilities](http://picturepan2.github.io/spectre/#utilities) - layout, positions, display, text, shapes, loading things
 
+### Tools
+
+- [Responsive Resizer](http://picturepan2.github.io/spectre/tools/resizer) - responsive test tool
+
 ### Browser support
-Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers and [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets. Spectre is designed for modern browsers. For best compatiblity, these browsers are recommended:
+Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers and [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets. Spectre is designed for modern browsers. For best compatibility, these browsers are recommended:
 - Chrome (last two)
 - Edge (last two)
 - Firefox (last two)

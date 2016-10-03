@@ -35,7 +35,9 @@
   img {
     border-radius: 50%;
     height: 100%;
+    position: relative;
     width: 100%;
+    z-index: 99;
   }
 
   .avatar-icon {
@@ -49,11 +51,12 @@
   }
 
   &[data-initial]::after {
-    color: @core-text-color;
+    color: @core-light-color;
     content: attr(data-initial);
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
   }
 }

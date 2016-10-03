@@ -6,8 +6,8 @@
 }
 html {
   box-sizing: border-box;
-  font-size: 10px;
-  line-height: 1.428571429;
+  font-size: @html-font-size;
+  line-height: @html-line-height;
   -webkit-tap-highlight-color: transparent;
 }
 body {
@@ -15,6 +15,7 @@ body {
   color: @body-font-color;
   font-family: @body-font-family;
   font-size: @body-font-size;
+  overflow-x: hidden;
 }
 a {
   color: @core-link-color;
@@ -29,10 +30,9 @@ a {
 &[disabled],
 .disabled {
   cursor: default;
-  opacity: .5;
+  opacity: .75;
   pointer-events: none;
 }
-
 // Icons
 .btn,
 .toast,
